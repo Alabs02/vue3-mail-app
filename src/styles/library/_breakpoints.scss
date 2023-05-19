@@ -1,0 +1,91 @@
+//===========================
+// MEDIA QUERY BREAK POINTS
+//===========================
+$xs: 450px; // EXTRA SMALL SCREEN SIZES
+$sm: 640px; // SMALL SCREEN SIZES
+$md: 768px; // MEDIUM SCREEN SIZES
+$lg: 1024px; //TABLET SCREEN SIZES
+$xl: 1280px; // DESKTOP SCREEN SIZES
+$xxl: 1536px; // 4K SCREEN SIZES
+
+@mixin breakpoint-up($breakpoint) {
+  @if $breakpoint==xs {
+    @media only screen and (min-width: $xs) {
+      @content;
+    }
+  } @else if $breakpoint==sm {
+    @media only screen and (min-width: $sm) {
+      @content;
+    }
+  } @else if $breakpoint==md {
+    @media only screen and (min-width: $md) {
+      @content;
+    }
+  } @else if $breakpoint==lg {
+    @media only screen and (min-width: $lg) {
+      @content;
+    }
+  } @else if $breakpoint==xl {
+    @media only screen and (min-width: $xl) {
+      @content;
+    }
+  }
+  @else if $breakpoint==xxl {
+    @media only screen and (min-width: $xxl) {
+      @content;
+    }
+  }
+}
+
+//===============================================
+// RESPONSIVE iCLASS MAXIMUM MEDIA QUERY WIDTH
+//===============================================
+@mixin breakpoint-down($breakpoint) {
+  @if $breakpoint==xs {
+    @media only screen and (max-width: $xs) {
+      @content;
+    }
+  } @else if $breakpoint==sm {
+    @media only screen and (max-width: $sm) {
+      @content;
+    }
+  } @else if $breakpoint==md {
+    @media only screen and (max-width: $md) {
+      @content;
+    }
+  } @else if $breakpoint==lg {
+    @media only screen and (max-width: $lg) {
+      @content;
+    }
+  } @else if $breakpoint==xl {
+    @media only screen and (max-width: $xl) {
+      @content;
+    }
+  }
+  @else if $breakpoint==xxl {
+    @media only screen and (max-width: $xxl) {
+      @content;
+    }
+  }
+}
+
+//=============================================
+// RESPONSIVE iCLASS MEDIA QUERY CUSTOM WIDTH
+//=============================================
+@mixin breakpoint-custom-up-down($min, $max) {
+  @media (min-width: #{$min}px) and (max-width: #{$max}px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-custom-up($min) {
+  @media only screen and (min-width: #{$min}px) {
+    @content;
+  }
+}
+
+@mixin breakpoint-custom-down($max) {
+  @media only screen and (max-width: #{$max}px) {
+    @content;
+  }
+}

@@ -1,0 +1,58 @@
+@mixin flex-center-between() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-start-between() {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@mixin flex-center-start() {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@mixin flex-center-end() {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@mixin flex-center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-start() {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+@mixin flex-end() {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@mixin flex-start-center() {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@mixin flex-end-center() {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+@mixin subpixel-antialiased() {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+}

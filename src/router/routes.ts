@@ -1,6 +1,6 @@
 import { RouteRecordRaw } from 'vue-router';
 
-export const routes: RouteRecordRaw[] = [
+const routes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'AppLayout',
@@ -41,9 +41,11 @@ export const routes: RouteRecordRaw[] = [
   {
     path: '/:pathMatch(.*)',
     name: 'NotFoundPage',
-    component: () =>
-      import(
-        /* webpackChunkName: "ErrorRoute" */ '@/pages/NotFoundPage.vue'
-      )
+    component: () => {},
+    beforeEnter(to, from) {
+      return { name: 'InboxPage' };
+    }
   }
 ];
+
+export default routes;

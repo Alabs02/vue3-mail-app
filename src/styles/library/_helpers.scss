@@ -1,0 +1,470 @@
+$maxSize: 150;
+$minSize: -60;
+
+@for $n from 0 through $maxSize {
+  .fs-#{$n} {
+    font-size: toRem($n) !important;
+  }
+
+  .lh-#{$n} {
+    line-height: toRem($n) !important;
+  }
+
+  .tracking-#{$n} {
+    letter-spacing: toRem($n) !important;
+  }
+
+  .gap {
+    &-#{$n} {
+      gap: toRem($n) !important;
+    }
+
+    &-x-#{$n} {
+      column-gap: toRem($n) !important;
+    }
+
+    &-y-#{$n} {
+      row-gap: toRem($n) !important;
+    }
+  }
+
+  .p {
+    &-#{$n} {
+      padding: toRem($n) !important;
+    }
+
+    &t-#{$n} {
+      padding-top: toRem($n) !important;
+    }
+
+    &r-#{$n} {
+      padding-right: toRem($n) !important;
+    }
+
+    &l-#{$n} {
+      padding-left: toRem($n) !important;
+    }
+
+    &b-#{$n} {
+      padding-bottom: toRem($n) !important;
+    }
+
+    &x-#{$n} {
+      padding-left: toRem($n) !important;
+      padding-right: toRem($n) !important;
+    }
+
+    &y-#{$n} {
+      padding-top: toRem($n) !important;
+      padding-bottom: toRem($n) !important;
+    }
+  }
+
+  .m {
+    &-#{$n} {
+      margin: toRem($n) !important;
+    }
+
+    &t-#{$n} {
+      margin-top: toRem($n) !important;
+    }
+
+    &r-#{$n} {
+      margin-right: toRem($n) !important;
+    }
+
+    &l-#{$n} {
+      margin-left: toRem($n) !important;
+    }
+
+    &b-#{$n} {
+      margin-bottom: toRem($n) !important;
+    }
+
+    &x-#{$n} {
+      margin-left: toRem($n) !important;
+      margin-right: toRem($n) !important;
+    }
+
+    &y-#{$n} {
+      margin-top: toRem($n) !important;
+      margin-bottom: toRem($n) !important;
+    }
+  }
+}
+
+@include breakpoint-up(md) {
+  @for $n from 0 through $maxSize {
+    .md\:fs-#{$n} {
+      font-size: toRem($n) !important;
+    }
+  
+    .md\:lh-#{$n} {
+      line-height: toRem($n) !important;
+    }
+  
+    .md\:tracking-#{$n} {
+      letter-spacing: toRem($n) !important;
+    }
+  
+    .md\:gap {
+      &-#{$n} {
+        gap: toRem($n) !important;
+      }
+  
+      &-x-#{$n} {
+        column-gap: toRem($n) !important;
+      }
+  
+      &-y-#{$n} {
+        row-gap: toRem($n) !important;
+      }
+    }
+  
+    .md\:p {
+      &-#{$n} {
+        padding: toRem($n) !important;
+      }
+  
+      &t-#{$n} {
+        padding-top: toRem($n) !important;
+      }
+  
+      &r-#{$n} {
+        padding-right: toRem($n) !important;
+      }
+  
+      &l-#{$n} {
+        padding-left: toRem($n) !important;
+      }
+  
+      &b-#{$n} {
+        padding-bottom: toRem($n) !important;
+      }
+  
+      &x-#{$n} {
+        padding-left: toRem($n) !important;
+        padding-right: toRem($n) !important;
+      }
+  
+      &y-#{$n} {
+        padding-top: toRem($n) !important;
+        padding-bottom: toRem($n) !important;
+      }
+    }
+  
+    .md\:m {
+      &-#{$n} {
+        margin: toRem($n) !important;
+      }
+  
+      &t-#{$n} {
+        margin-top: toRem($n) !important;
+      }
+  
+      &r-#{$n} {
+        margin-right: toRem($n) !important;
+      }
+  
+      &l-#{$n} {
+        margin-left: toRem($n) !important;
+      }
+  
+      &b-#{$n} {
+        margin-bottom: toRem($n) !important;
+      }
+  
+      &x-#{$n} {
+        margin-left: toRem($n) !important;
+        margin-right: toRem($n) !important;
+      }
+  
+      &y-#{$n} {
+        margin-top: toRem($n) !important;
+        margin-bottom: toRem($n) !important;
+      }
+    }
+  } 
+}
+
+@include breakpoint-up(lg) {
+  @for $n from 0 through $maxSize {
+    .lg\:fs-#{$n} {
+      font-size: toRem($n) !important;
+    }
+  
+    .lg\:lh-#{$n} {
+      line-height: toRem($n) !important;
+    }
+  
+    .lg\:tracking-#{$n} {
+      letter-spacing: toRem($n) !important;
+    }
+  
+    .lg\:gap {
+      &-#{$n} {
+        gap: toRem($n) !important;
+      }
+  
+      &-x-#{$n} {
+        column-gap: toRem($n) !important;
+      }
+  
+      &-y-#{$n} {
+        row-gap: toRem($n) !important;
+      }
+    }
+  
+    .lg\:p {
+      &-#{$n} {
+        padding: toRem($n) !important;
+      }
+  
+      &t-#{$n} {
+        padding-top: toRem($n) !important;
+      }
+  
+      &r-#{$n} {
+        padding-right: toRem($n) !important;
+      }
+  
+      &l-#{$n} {
+        padding-left: toRem($n) !important;
+      }
+  
+      &b-#{$n} {
+        padding-bottom: toRem($n) !important;
+      }
+  
+      &x-#{$n} {
+        padding-left: toRem($n) !important;
+        padding-right: toRem($n) !important;
+      }
+  
+      &y-#{$n} {
+        padding-top: toRem($n) !important;
+        padding-bottom: toRem($n) !important;
+      }
+    }
+  
+    .lg\:m {
+      &-#{$n} {
+        margin: toRem($n) !important;
+      }
+  
+      &t-#{$n} {
+        margin-top: toRem($n) !important;
+      }
+  
+      &r-#{$n} {
+        margin-right: toRem($n) !important;
+      }
+  
+      &l-#{$n} {
+        margin-left: toRem($n) !important;
+      }
+  
+      &b-#{$n} {
+        margin-bottom: toRem($n) !important;
+      }
+  
+      &x-#{$n} {
+        margin-left: toRem($n) !important;
+        margin-right: toRem($n) !important;
+      }
+  
+      &y-#{$n} {
+        margin-top: toRem($n) !important;
+        margin-bottom: toRem($n) !important;
+      }
+    }
+  } 
+}
+
+@include breakpoint-up(xl) {
+  @for $n from 0 through $maxSize {
+    .xl\:fs-#{$n} {
+      font-size: toRem($n) !important;
+    }
+  
+    .xl\:lh-#{$n} {
+      line-height: toRem($n) !important;
+    }
+  
+    .xl\:tracking-#{$n} {
+      letter-spacing: toRem($n) !important;
+    }
+  
+    .xl\:gap {
+      &-#{$n} {
+        gap: toRem($n) !important;
+      }
+  
+      &-x-#{$n} {
+        column-gap: toRem($n) !important;
+      }
+  
+      &-y-#{$n} {
+        row-gap: toRem($n) !important;
+      }
+    }
+  
+    .xl\:p {
+      &-#{$n} {
+        padding: toRem($n) !important;
+      }
+  
+      &t-#{$n} {
+        padding-top: toRem($n) !important;
+      }
+  
+      &r-#{$n} {
+        padding-right: toRem($n) !important;
+      }
+  
+      &l-#{$n} {
+        padding-left: toRem($n) !important;
+      }
+  
+      &b-#{$n} {
+        padding-bottom: toRem($n) !important;
+      }
+  
+      &x-#{$n} {
+        padding-left: toRem($n) !important;
+        padding-right: toRem($n) !important;
+      }
+  
+      &y-#{$n} {
+        padding-top: toRem($n) !important;
+        padding-bottom: toRem($n) !important;
+      }
+    }
+  
+    .xl\:m {
+      &-#{$n} {
+        margin: toRem($n) !important;
+      }
+  
+      &t-#{$n} {
+        margin-top: toRem($n) !important;
+      }
+  
+      &r-#{$n} {
+        margin-right: toRem($n) !important;
+      }
+  
+      &l-#{$n} {
+        margin-left: toRem($n) !important;
+      }
+  
+      &b-#{$n} {
+        margin-bottom: toRem($n) !important;
+      }
+  
+      &x-#{$n} {
+        margin-left: toRem($n) !important;
+        margin-right: toRem($n) !important;
+      }
+  
+      &y-#{$n} {
+        margin-top: toRem($n) !important;
+        margin-bottom: toRem($n) !important;
+      }
+    }
+  } 
+}
+
+@include breakpoint-up(xxl) {
+  @for $n from 0 through $maxSize {
+    .xxl\:fs-#{$n} {
+      font-size: toRem($n) !important;
+    }
+  
+    .xxl\:lh-#{$n} {
+      line-height: toRem($n) !important;
+    }
+  
+    .xxl\:tracking-#{$n} {
+      letter-spacing: toRem($n) !important;
+    }
+  
+    .xxl\:gap {
+      &-#{$n} {
+        gap: toRem($n) !important;
+      }
+  
+      &-x-#{$n} {
+        column-gap: toRem($n) !important;
+      }
+  
+      &-y-#{$n} {
+        row-gap: toRem($n) !important;
+      }
+    }
+  
+    .xxl\:p {
+      &-#{$n} {
+        padding: toRem($n) !important;
+      }
+  
+      &t-#{$n} {
+        padding-top: toRem($n) !important;
+      }
+  
+      &r-#{$n} {
+        padding-right: toRem($n) !important;
+      }
+  
+      &l-#{$n} {
+        padding-left: toRem($n) !important;
+      }
+  
+      &b-#{$n} {
+        padding-bottom: toRem($n) !important;
+      }
+  
+      &x-#{$n} {
+        padding-left: toRem($n) !important;
+        padding-right: toRem($n) !important;
+      }
+  
+      &y-#{$n} {
+        padding-top: toRem($n) !important;
+        padding-bottom: toRem($n) !important;
+      }
+    }
+  
+    .xxl\:m {
+      &-#{$n} {
+        margin: toRem($n) !important;
+      }
+  
+      &t-#{$n} {
+        margin-top: toRem($n) !important;
+      }
+  
+      &r-#{$n} {
+        margin-right: toRem($n) !important;
+      }
+  
+      &l-#{$n} {
+        margin-left: toRem($n) !important;
+      }
+  
+      &b-#{$n} {
+        margin-bottom: toRem($n) !important;
+      }
+  
+      &x-#{$n} {
+        margin-left: toRem($n) !important;
+        margin-right: toRem($n) !important;
+      }
+  
+      &y-#{$n} {
+        margin-top: toRem($n) !important;
+        margin-bottom: toRem($n) !important;
+      }
+    }
+  } 
+}
