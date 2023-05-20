@@ -62,7 +62,8 @@
 
   const { mapActions, mapGetters } = createNamespacedHelpers("mail");
 
-  export default defineComponent({
+  // If I'm building a real world solution, I'll create and interface for this component and I'll not use any.
+  export default defineComponent<any>({
     name: "InboxPage",
 
     components: {
@@ -145,7 +146,7 @@
       },
 
       deselectEmail(id: number) {
-        const filteredEmails = toRaw(this.selectedEmails).filter((_id) => _id !== id);
+        const filteredEmails = toRaw(this.selectedEmails).filter((_id: number) => _id !== id);
         this.selectedEmails = filteredEmails;
       },
 
