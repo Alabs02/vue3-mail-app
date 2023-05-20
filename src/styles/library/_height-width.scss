@@ -10,11 +10,11 @@ $size: 200;
   }
 
   .wf-#{$n} {
-    width: #{$n + '%'} !important;
+    width: #{$n + "%"} !important;
   }
 
   .hf-#{$n} {
-    height: #{$n + '%'} !important;
+    height: #{$n + "%"} !important;
   }
 }
 
@@ -29,11 +29,11 @@ $size: 200;
     }
 
     .md\:wf-#{$n} {
-      width: #{$n + '%'} !important;
+      width: #{$n + "%"} !important;
     }
 
     .md\:hf-#{$n} {
-      height: #{$n + '%'} !important;
+      height: #{$n + "%"} !important;
     }
   }
 }
@@ -49,11 +49,11 @@ $size: 200;
     }
 
     .lg\:wf-#{$n} {
-      width: #{$n + '%'} !important;
+      width: #{$n + "%"} !important;
     }
 
     .lg\:hf-#{$n} {
-      height: #{$n + '%'} !important;
+      height: #{$n + "%"} !important;
     }
   }
 }
@@ -69,11 +69,11 @@ $size: 200;
     }
 
     .xl\:wf-#{$n} {
-      width: #{$n + '%'} !important;
+      width: #{$n + "%"} !important;
     }
 
     .xl\:hf-#{$n} {
-      height: #{$n + '%'} !important;
+      height: #{$n + "%"} !important;
     }
   }
 }
@@ -89,12 +89,11 @@ $size: 200;
     }
 
     .xxl\:wf-#{$n} {
-      width: #{$n + '%'} !important;
+      width: #{$n + "%"} !important;
     }
 
     .xxl\:hf-#{$n} {
-      height: #{$n + '%'} !important;
+      height: #{$n + "%"} !important;
     }
   }
 }
-

@@ -1,0 +1,274 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "subject": "Meeting Reminder",
+      "body": "Just a reminder that we have a meeting tomorrow at 10 AM. Please be prepared with your updates.",
+      "sender": "john@example.com",
+      "recipient": "jane@example.com",
+      "timestamp": "2023-05-20 09:00:00",
+      "read": true
+    },
+    {
+      "id": 2,
+      "subject": "Meeting Reminder",
+      "body": "Just a reminder that we have a meeting tomorrow at 10 AM. Please be prepared with your updates.",
+      "sender": "john@example.com",
+      "recipient": "jane@example.com",
+      "timestamp": "2023-05-20 09:00:00",
+      "read": true
+    },
+    {
+      "id": 3,
+      "subject": "Meeting Reminder",
+      "body": "Just a reminder that we have a meeting tomorrow at 10 AM. Please be prepared with your updates.",
+      "sender": "john@example.com",
+      "recipient": "jane@example.com",
+      "timestamp": "2023-05-20 09:00:00",
+      "read": true
+    },
+    {
+      "id": 4,
+      "subject": "Important Announcement",
+      "body": "Dear all,\n\nI am pleased to announce that our company has achieved record-breaking sales this quarter. Congratulations to everyone for their hard work and dedication!\n\nBest regards,\nJohn",
+      "sender": "john@example.com",
+      "recipient": "all@example.com",
+      "timestamp": "2023-05-19 14:30:00",
+      "read": false
+    },
+    {
+      "id": 5,
+      "subject": "Project Update",
+      "body": "Hi team,\n\nJust wanted to provide a quick update on the project. We are making great progress and are on track to meet the deadline. Keep up the good work!\n\nRegards,\nJane",
+      "sender": "jane@example.com",
+      "recipient": "team@example.com",
+      "timestamp": "2023-05-18 10:15:00",
+      "read": true
+    },
+    {
+      "id": 6,
+      "subject": "Request for Proposal",
+      "body": "Dear supplier,\n\nWe are currently in the process of seeking proposals for our upcoming project. Please find attached the Request for Proposal (RFP) document for your reference.\n\nKindly submit your proposal by the deadline mentioned in the document.\n\nThank you,\nJohn",
+      "sender": "john@example.com",
+      "recipient": "supplier@example.com",
+      "timestamp": "2023-05-17 11:45:00",
+      "read": true
+    },
+    {
+      "id": 7,
+      "subject": "Happy Birthday!",
+      "body": "Dear Jane,\n\nWishing you a very happy birthday! May this year bring you joy, success, and good health.\n\nBest regards,\nJohn",
+      "sender": "john@example.com",
+      "recipient": "jane@example.com",
+      "timestamp": "2023-05-16 08:00:00",
+      "read": true
+    },
+    {
+      "id": 8,
+      "subject": "Weekly Newsletter",
+      "body": "Hi subscribers,\n\nWelcome to our weekly newsletter. In this edition, we have exciting updates on our latest products, upcoming events, and exclusive offers.\n\nStay tuned!\n\nRegards,\nMarketing Team",
+      "sender": "newsletter@example.com",
+      "recipient": "subscribers@example.com",
+      "timestamp": "2023-05-15 16:30:00",
+      "read": false
+    },
+    {
+      "id": 9,
+      "subject": "Invitation to Conference",
+      "body": "Dear [Name],\n\nWe are pleased to invite you to our upcoming conference on [Date] at [Location]. The event will feature renowned speakers and insightful sessions on various topics.\n\nPlease RSVP at your earliest convenience.\n\nBest regards,\nEvent Organizers",
+      "sender": "conference@example.com",
+      "recipient": "attendee@example.com",
+      "timestamp": "2023-05-14 09:45:00",
+      "read": false
+    },
+    {
+      "id": 10,
+      "subject": "New Product Launch",
+      "body": "Dear customers,\n\nWe are thrilled to announce the launch of our new product - [Product Name]. This innovative solution will revolutionize the way you [describe benefits/features].\n\nVisit our website for more details!\n\nRegards,\nMarketing Team",
+      "sender": "marketing@example.com",
+      "recipient": "customers@example.com",
+      "timestamp": "2023-05-13 15:20:00",
+      "read": true
+    },
+    {
+      "id": 11,
+      "subject": "Job Vacancy: Senior Developer",
+      "body": "Dear [Name],\n\nWe have an exciting job opportunity for the position of Senior Developer at our company. If you have a passion for coding and are looking for new challenges, we would love to hear from you.\n\nPlease find attached the job description and application details.\n\nBest regards,\nHR Department",
+      "sender": "hr@example.com",
+      "recipient": "candidates@example.com",
+      "timestamp": "2023-05-12 11:10:00",
+      "read": true
+    },
+    {
+      "id": 12,
+      "subject": "Training Workshop: Time Management",
+      "body": "Hi team,\n\nWe are organizing a training workshop on Time Management to help improve productivity and efficiency. The workshop will take place on [Date] from [Time] to [Time].\n\nPlease confirm your attendance by [RSVP Date].\n\nRegards,\nTraining Department",
+      "sender": "training@example.com",
+      "recipient": "team@example.com",
+      "timestamp": "2023-05-11 13:25:00",
+      "read": false
+    },
+    {
+      "id": 13,
+      "subject": "Payment Reminder",
+      "body": "Dear [Name],\n\nThis is a gentle reminder that your payment for invoice #[Invoice Number] is due on [Due Date].\n\nPlease ensure prompt payment to avoid any inconvenience.\n\nRegards,\nAccounting Department",
+      "sender": "accounting@example.com",
+      "recipient": "customer@example.com",
+      "timestamp": "2023-05-10 09:30:00",
+      "read": true
+    },
+    {
+      "id": 14,
+      "subject": "Congratulations on Your Promotion",
+      "body": "Dear [Name],\n\nCongratulations on your well-deserved promotion! Your hard work, dedication, and exceptional performance have been recognized.\n\nWishing you continued success in your new role.\n\nBest regards,\nManagement Team",
+      "sender": "management@example.com",
+      "recipient": "employee@example.com",
+      "timestamp": "2023-05-09 14:50:00",
+      "read": true
+    },
+    {
+      "id": 15,
+      "subject": "Upcoming Holiday Notice",
+      "body": "Dear team,\n\nPlease note that our office will be closed on [Holiday Date] in observance of [Holiday Name]. We will resume regular business hours on [Date].\n\nEnjoy your well-deserved break!\n\nRegards,\nHR Department",
+      "sender": "hr@example.com",
+      "recipient": "team@example.com",
+      "timestamp": "2023-05-08 12:15:00",
+      "read": false
+    },
+    {
+      "id": 16,
+      "subject": "Customer Satisfaction Survey",
+      "body": "Dear valued customer,\n\nWe highly value your opinion and would appreciate it if you could take a few minutes to complete our customer satisfaction survey.\n\nYour feedback will help us enhance our products and services.\n\nThank you for your support!\n\nRegards,\nCustomer Support",
+      "sender": "support@example.com",
+      "recipient": "customer@example.com",
+      "timestamp": "2023-05-07 17:40:00",
+      "read": true
+    },
+    {
+      "id": 17,
+      "subject": "Request for Collaboration",
+      "body": "Dear [Name],\n\nI hope this email finds you well. I am reaching out to explore potential collaboration opportunities between our organizations.\n\nPlease let me know if you would be interested in discussing this further.\n\nBest regards,\nJohn",
+      "sender": "john@example.com",
+      "recipient": "partner@example.com",
+      "timestamp": "2023-05-06 10:05:00",
+      "read": true
+    },
+    {
+      "id": 18,
+      "subject": "Volunteer Opportunity",
+      "body": "Dear [Name],\n\nWe are organizing a volunteer event on [Date] to support a local charity. If you are interested in making a positive impact in the community, please join us!\n\nLet's work together to create a better world.\n\nRegards,\nCommunity Outreach",
+      "sender": "outreach@example.com",
+      "recipient": "volunteer@example.com",
+      "timestamp": "2023-05-05 15:30:00",
+      "read": false
+    },
+    {
+      "id": 19,
+      "subject": "Product Feedback Request",
+      "body": "Dear customer,\n\nWe hope you are enjoying our product. We would love to hear your feedback and suggestions to help us further improve.\n\nYour input is invaluable to us.\n\nBest regards,\nProduct Team",
+      "sender": "product@example.com",
+      "recipient": "customer@example.com",
+      "timestamp": "2023-05-04 09:55:00",
+      "read": true
+    },
+    {
+      "id": 20,
+      "subject": "Reminder: Project Deadline Approaching",
+      "body": "Hi team,\n\nJust a friendly reminder that the deadline for the [Project Name] is approaching. Please make sure to complete your tasks and submit your deliverables on time.\n\nLet's finish strong!\n\nRegards,\nProject Manager",
+      "sender": "manager@example.com",
+      "recipient": "team@example.com",
+      "timestamp": "2023-05-03 14:20:00",
+      "read": true
+    },
+    {
+      "id": 21,
+      "subject": "Welcome to Our Team",
+      "body": "Dear [Name],\n\nOn behalf of our team, I would like to extend a warm welcome to you. We are thrilled to have you on board!\n\nPlease feel free to reach out if you have any questions or need assistance.\n\nBest regards,\nTeam Lead",
+      "sender": "lead@example.com",
+      "recipient": "newemployee@example.com",
+      "timestamp": "2023-05-02 11:40:00",
+      "read": false
+    },
+    {
+      "id": 22,
+      "subject": "Conference Registration Confirmation",
+      "body": "Dear [Name],\n\nThank you for registering for our upcoming conference. We are excited to have you join us!\n\nPlease find attached your registration confirmation. We look forward to seeing you at the event.\n\nBest regards,\nConference Organizers",
+      "sender": "conference@example.com",
+      "recipient": "attendee@example.com",
+      "timestamp": "2023-05-01 16:10:00",
+      "read": true
+    },
+    {
+      "id": 23,
+      "subject": "Urgent: Server Maintenance",
+      "body": "Dear team,\n\nWe will be performing scheduled maintenance on our servers on [Date] from [Time] to [Time]. During this period, there may be temporary disruptions in our services.\n\nWe apologize for any inconvenience caused.\n\nRegards,\nIT Department",
+      "sender": "it@example.com",
+      "recipient": "team@example.com",
+      "timestamp": "2023-04-30 08:50:00",
+      "read": true
+    },
+    {
+      "id": 24,
+      "subject": "Congratulations on Graduation",
+      "body": "Dear [Name],\n\nCongratulations on your graduation! This is a remarkable achievement, and we are proud of your hard work and dedication.\n\nWishing you a bright and successful future.\n\nBest regards,\nFamily and Friends",
+      "sender": "family@example.com",
+      "recipient": "graduate@example.com",
+      "timestamp": "2023-04-29 14:15:00",
+      "read": false
+    },
+    {
+      "id": 25,
+      "subject": "Important Update: Policy Changes",
+      "body": "Dear team,\n\nWe would like to inform you about the recent policy changes that will take effect on [Date]. Please take the time to review the updated policies and familiarize yourself with the changes.\n\nIf you have any questions, feel free to reach out to the HR department.\n\nBest regards,\nHR Department",
+      "sender": "hr@example.com",
+      "recipient": "team@example.com",
+      "timestamp": "2023-04-28 12:40:00",
+      "read": true
+    },
+    {
+      "id": 26,
+      "subject": "Thank You for Your Support",
+      "body": "Dear [Name],\n\nWe would like to express our sincere gratitude for your support and trust in our company. We value your business and will continue to provide you with the best products and services.\n\nThank you once again!\n\nRegards,\nManagement Team",
+      "sender": "management@example.com",
+      "recipient": "customer@example.com",
+      "timestamp": "2023-04-27 10:00:00",
+      "read": true
+    },
+    {
+      "id": 27,
+      "subject": "Company Social Event",
+      "body": "Hi team,\n\nWe are excited to invite you to our upcoming company social event. It will be a great opportunity to socialize, relax, and have fun together.\n\nSave the date and stay tuned for more details!\n\nRegards,\nEvent Committee",
+      "sender": "events@example.com",
+      "recipient": "team@example.com",
+      "timestamp": "2023-04-26 16:25:00",
+      "read": false
+    },
+    {
+      "id": 28,
+      "subject": "Product Demo Invitation",
+      "body": "Dear [Name],\n\nWe would like to invite you to an exclusive product demo of our latest offering. Join us to get a firsthand experience of its features and capabilities.\n\nPlease RSVP to reserve your spot.\n\nBest regards,\nSales Team",
+      "sender": "sales@example.com",
+      "recipient": "customer@example.com",
+      "timestamp": "2023-04-25 09:40:00",
+      "read": true
+    },
+    {
+      "id": 29,
+      "subject": "Request for Information",
+      "body": "Dear [Name],\n\nI hope this email finds you well. I am writing to request information regarding [Topic/Subject]. Your expertise and insights would be greatly appreciated.\n\nThank you in advance for your assistance.\n\nBest regards,\nJohn",
+      "sender": "john@example.com",
+      "recipient": "contact@example.com",
+      "timestamp": "2023-04-24 13:05:00",
+      "read": false
+    },
+    {
+      "id": 30,
+      "subject": "Holiday Greetings",
+      "body": "Dear [Name],\n\nWishing you and your loved ones a joyful holiday season filled with happiness and peace.\n\nMay the coming year bring you success and prosperity.\n\nWarm regards,\nJohn",
+      "sender": "john@example.com",
+      "recipient": "friend@example.com",
+      "timestamp": "2023-04-23 11:30:00",
+      "read": true
+    }
+  ]
+}

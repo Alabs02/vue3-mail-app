@@ -1,6 +1,13 @@
 $maxSize: 150;
 $minSize: -60;
 
+.container {
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  padding: toRem(32);
+  background: lighten($color: $brand-white, $amount: 3%);
+}
+
 @for $n from 0 through $maxSize {
   .fs-#{$n} {
     font-size: toRem($n) !important;
@@ -98,93 +105,93 @@ $minSize: -60;
     .md\:fs-#{$n} {
       font-size: toRem($n) !important;
     }
-  
+
     .md\:lh-#{$n} {
       line-height: toRem($n) !important;
     }
-  
+
     .md\:tracking-#{$n} {
       letter-spacing: toRem($n) !important;
     }
-  
+
     .md\:gap {
       &-#{$n} {
         gap: toRem($n) !important;
       }
-  
+
       &-x-#{$n} {
         column-gap: toRem($n) !important;
       }
-  
+
       &-y-#{$n} {
         row-gap: toRem($n) !important;
       }
     }
-  
+
     .md\:p {
       &-#{$n} {
         padding: toRem($n) !important;
       }
-  
+
       &t-#{$n} {
         padding-top: toRem($n) !important;
       }
-  
+
       &r-#{$n} {
         padding-right: toRem($n) !important;
       }
-  
+
       &l-#{$n} {
         padding-left: toRem($n) !important;
       }
-  
+
       &b-#{$n} {
         padding-bottom: toRem($n) !important;
       }
-  
+
       &x-#{$n} {
         padding-left: toRem($n) !important;
         padding-right: toRem($n) !important;
       }
-  
+
       &y-#{$n} {
         padding-top: toRem($n) !important;
         padding-bottom: toRem($n) !important;
       }
     }
-  
+
     .md\:m {
       &-#{$n} {
         margin: toRem($n) !important;
       }
-  
+
       &t-#{$n} {
         margin-top: toRem($n) !important;
       }
-  
+
       &r-#{$n} {
         margin-right: toRem($n) !important;
       }
-  
+
       &l-#{$n} {
         margin-left: toRem($n) !important;
       }
-  
+
       &b-#{$n} {
         margin-bottom: toRem($n) !important;
       }
-  
+
       &x-#{$n} {
         margin-left: toRem($n) !important;
         margin-right: toRem($n) !important;
       }
-  
+
       &y-#{$n} {
         margin-top: toRem($n) !important;
         margin-bottom: toRem($n) !important;
       }
     }
-  } 
+  }
 }
 
 @include breakpoint-up(lg) {
@@ -192,93 +199,93 @@ $minSize: -60;
     .lg\:fs-#{$n} {
       font-size: toRem($n) !important;
     }
-  
+
     .lg\:lh-#{$n} {
       line-height: toRem($n) !important;
     }
-  
+
     .lg\:tracking-#{$n} {
       letter-spacing: toRem($n) !important;
     }
-  
+
     .lg\:gap {
       &-#{$n} {
         gap: toRem($n) !important;
       }
-  
+
       &-x-#{$n} {
         column-gap: toRem($n) !important;
       }
-  
+
       &-y-#{$n} {
         row-gap: toRem($n) !important;
       }
     }
-  
+
     .lg\:p {
       &-#{$n} {
         padding: toRem($n) !important;
       }
-  
+
       &t-#{$n} {
         padding-top: toRem($n) !important;
       }
-  
+
       &r-#{$n} {
         padding-right: toRem($n) !important;
       }
-  
+
       &l-#{$n} {
         padding-left: toRem($n) !important;
       }
-  
+
       &b-#{$n} {
         padding-bottom: toRem($n) !important;
       }
-  
+
       &x-#{$n} {
         padding-left: toRem($n) !important;
         padding-right: toRem($n) !important;
       }
-  
+
       &y-#{$n} {
         padding-top: toRem($n) !important;
         padding-bottom: toRem($n) !important;
       }
     }
-  
+
     .lg\:m {
       &-#{$n} {
         margin: toRem($n) !important;
       }
-  
+
       &t-#{$n} {
         margin-top: toRem($n) !important;
       }
-  
+
       &r-#{$n} {
         margin-right: toRem($n) !important;
       }
-  
+
       &l-#{$n} {
         margin-left: toRem($n) !important;
       }
-  
+
       &b-#{$n} {
         margin-bottom: toRem($n) !important;
       }
-  
+
       &x-#{$n} {
         margin-left: toRem($n) !important;
         margin-right: toRem($n) !important;
       }
-  
+
       &y-#{$n} {
         margin-top: toRem($n) !important;
         margin-bottom: toRem($n) !important;
       }
     }
-  } 
+  }
 }
 
 @include breakpoint-up(xl) {
@@ -286,93 +293,93 @@ $minSize: -60;
     .xl\:fs-#{$n} {
       font-size: toRem($n) !important;
     }
-  
+
     .xl\:lh-#{$n} {
       line-height: toRem($n) !important;
     }
-  
+
     .xl\:tracking-#{$n} {
       letter-spacing: toRem($n) !important;
     }
-  
+
     .xl\:gap {
       &-#{$n} {
         gap: toRem($n) !important;
       }
-  
+
       &-x-#{$n} {
         column-gap: toRem($n) !important;
       }
-  
+
       &-y-#{$n} {
         row-gap: toRem($n) !important;
       }
     }
-  
+
     .xl\:p {
       &-#{$n} {
         padding: toRem($n) !important;
       }
-  
+
       &t-#{$n} {
         padding-top: toRem($n) !important;
       }
-  
+
       &r-#{$n} {
         padding-right: toRem($n) !important;
       }
-  
+
       &l-#{$n} {
         padding-left: toRem($n) !important;
       }
-  
+
       &b-#{$n} {
         padding-bottom: toRem($n) !important;
       }
-  
+
       &x-#{$n} {
         padding-left: toRem($n) !important;
         padding-right: toRem($n) !important;
       }
-  
+
       &y-#{$n} {
         padding-top: toRem($n) !important;
         padding-bottom: toRem($n) !important;
       }
     }
-  
+
     .xl\:m {
       &-#{$n} {
         margin: toRem($n) !important;
       }
-  
+
       &t-#{$n} {
         margin-top: toRem($n) !important;
       }
-  
+
       &r-#{$n} {
         margin-right: toRem($n) !important;
       }
-  
+
       &l-#{$n} {
         margin-left: toRem($n) !important;
       }
-  
+
       &b-#{$n} {
         margin-bottom: toRem($n) !important;
       }
-  
+
       &x-#{$n} {
         margin-left: toRem($n) !important;
         margin-right: toRem($n) !important;
       }
-  
+
       &y-#{$n} {
         margin-top: toRem($n) !important;
         margin-bottom: toRem($n) !important;
       }
     }
-  } 
+  }
 }
 
 @include breakpoint-up(xxl) {
@@ -380,91 +387,91 @@ $minSize: -60;
     .xxl\:fs-#{$n} {
       font-size: toRem($n) !important;
     }
-  
+
     .xxl\:lh-#{$n} {
       line-height: toRem($n) !important;
     }
-  
+
     .xxl\:tracking-#{$n} {
       letter-spacing: toRem($n) !important;
     }
-  
+
     .xxl\:gap {
       &-#{$n} {
         gap: toRem($n) !important;
       }
-  
+
       &-x-#{$n} {
         column-gap: toRem($n) !important;
       }
-  
+
       &-y-#{$n} {
         row-gap: toRem($n) !important;
       }
     }
-  
+
     .xxl\:p {
       &-#{$n} {
         padding: toRem($n) !important;
       }
-  
+
       &t-#{$n} {
         padding-top: toRem($n) !important;
       }
-  
+
       &r-#{$n} {
         padding-right: toRem($n) !important;
       }
-  
+
       &l-#{$n} {
         padding-left: toRem($n) !important;
       }
-  
+
       &b-#{$n} {
         padding-bottom: toRem($n) !important;
       }
-  
+
       &x-#{$n} {
         padding-left: toRem($n) !important;
         padding-right: toRem($n) !important;
       }
-  
+
       &y-#{$n} {
         padding-top: toRem($n) !important;
         padding-bottom: toRem($n) !important;
       }
     }
-  
+
     .xxl\:m {
       &-#{$n} {
         margin: toRem($n) !important;
       }
-  
+
       &t-#{$n} {
         margin-top: toRem($n) !important;
       }
-  
+
       &r-#{$n} {
         margin-right: toRem($n) !important;
       }
-  
+
       &l-#{$n} {
         margin-left: toRem($n) !important;
       }
-  
+
       &b-#{$n} {
         margin-bottom: toRem($n) !important;
       }
-  
+
       &x-#{$n} {
         margin-left: toRem($n) !important;
         margin-right: toRem($n) !important;
       }
-  
+
       &y-#{$n} {
         margin-top: toRem($n) !important;
         margin-bottom: toRem($n) !important;
       }
     }
-  } 
+  }
 }
