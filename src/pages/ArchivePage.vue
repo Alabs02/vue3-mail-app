@@ -23,7 +23,7 @@
 
   <!--  OVERLAYS  -->
   <teleport to="#overlay">
-    <WithOverylay @close="toggleOverlay" @on-escape="toggleOverlay" :show-overlay="showOverlay">
+    <WithOverylay @close="closeOverlay" @on-escape="closeOverlay" :show-overlay="showOverlay">
       <template #modal>
         <preview-email :email="getSelectedEmail" />
       </template>
@@ -106,12 +106,16 @@
         this.selectedEmail = event;
 
         setTimeout(() => {
-          this.toggleOverlay();
+          this.openOverlay();
         }, 0);
       },
 
-      toggleOverlay() {
-        this.showOverlay = !this.showOverlay;
+      openOverlay() {
+        this.showOverlay = true;
+      },
+
+      closeOverlay() {
+        this.showOverlay = false;
       }
     }
   });
