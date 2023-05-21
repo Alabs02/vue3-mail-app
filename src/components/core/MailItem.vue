@@ -1,6 +1,6 @@
 <template>
   <button
-    @click="handleOnClick"
+    @click.self="handleOnClick"
     class="mail-item gap-x-24"
     :class="{ 'mail-item--inactive': getEmail?.read }"
   >
